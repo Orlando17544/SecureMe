@@ -22,8 +22,8 @@ data class CentroDeTrabajo (
     @ColumnInfo(name = "municipio")
     var municipio: String?,
 
-    @ColumnInfo(name = "área")
-    var área: String?,
+    @ColumnInfo(name = "area")
+    var area: String?,
 
     @ColumnInfo(name = "longitud")
     var longitud: Float?,
