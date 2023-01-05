@@ -25,6 +25,7 @@ abstract class CentroDeTrabajoDatabase : RoomDatabase() {
                         CentroDeTrabajoDatabase::class.java,
                         "centro_de_trabajo_database"
                     )
+                        .createFromAsset("database/guanajuato.db")
                         .build()
                     INSTANCE = instance
                 }
